@@ -1,5 +1,18 @@
 #include <stdio.h>
 #include <string.h>
+#include "tasks.h"
+
+int tokenizar(char * prompt, char ** tokens){
+    int i = 0;
+    char *token = strtok(prompt, " ");
+    while(token != NULL){
+        tokens[i] = token;
+        i ++;
+        token = strtok(NULL, " ");
+    }
+    tokens[i] = NULL;
+    return i;
+}
 
 void interativo(){
     char prompt[100];
@@ -9,10 +22,12 @@ void interativo(){
         fgets(prompt, sizeof(prompt), stdin);
         prompt[strcspn(prompt, "\n")] = '\0';
 
-        char  *comando = strtok(prompt, " ");
+        char *tokens[20];
+        int n = tokenizar(prompt, tokens);  //n guarda o tamanho da lista de tokens
+        char *comando = tokens[0];   //comandos: task, run, input, output, start, exit
 
         if (strcmp(comando, "task") == 0){
-            printf("Cadastrando tarefa...\n");
+            cadastrarTask(tokens, n);
         } 
         else if(strcmp(comando, "run") == 0){
             printf("Executando tarefa...\n");
