@@ -7,8 +7,10 @@ void interativo(){
     while(rodando == 1){
         printf("processflow> ");
         fgets(prompt, sizeof(prompt), stdin);
+        prompt[strcspn(prompt, "\n")] = '\0';
 
         char  *comando = strtok(prompt, " ");
+
         if (strcmp(comando, "task") == 0){
             printf("Cadastrando tarefa...\n");
         } 
@@ -25,7 +27,7 @@ void interativo(){
             printf("Iniciando tarefa...\n");
         } else if(strcmp(comando, "exit") == 0){
             printf("Saindo...\n");
-            rodando == 0;
+            rodando = 0;
         }
     }
 
