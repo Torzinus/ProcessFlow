@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "tasks.h"
+#include <unistd.h>
+#include <sys/wait.h>
 
 int tokenizar(char * prompt, char ** tokens){
     int i = 0;
@@ -30,7 +33,7 @@ void interativo(){
             cadastrarTask(tokens, n);
         } 
         else if(strcmp(comando, "run") == 0){
-            printf("Executando tarefa...\n");
+            runTask(tokens, n);
         }
         else if(strcmp(comando, "input") == 0){
             printf("Recebendo entrada de arquivo...\n");

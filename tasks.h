@@ -7,3 +7,6 @@ typedef struct Tarefa{
 } Tarefa;
 
 Tarefa * cadastrarTask(char ** tokens, int n);
+Tarefa * buscaTask(char * nome);
+void runTask(char ** tokens, int n);
+void runSequential(Tarefa * t);
