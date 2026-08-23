@@ -36,7 +36,7 @@ void interativo(){
             runTask(tokens, n);
         }
         else if(strcmp(comando, "input") == 0){
-            printf("Recebendo entrada de arquivo...\n");
+            input(tokens, n);
         }
         else if(strcmp(comando, "output") == 0){
             printf("Enviando saída para arquivo...\n");
