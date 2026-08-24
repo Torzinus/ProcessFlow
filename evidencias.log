@@ -2237,4 +2237,75 @@ processflow> run escrever
 Erro. Insira um modo de execução válido.
 processflow> exit
 Saindo...
-[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ ./processflow
+[?2004lIniciando modo interativo...
+processflow> task escrever /bin/echo linha-um
+Tarefa escrever - /bin/echo cadastrada com sucesso
+processflow> exit
+Saindo...
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c tasks.c
+gcc main.o tasks.o -o processflow
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ ./processflow
+[?2004lIniciando modo interativo...
+processflow> task escrever /bin/echo linha-um
+Tarefa escrever - /bin/echo cadastrada com sucesso
+processflow> output escrever saida.txt
+processflow> run escrever
+processflow> task adicionar /bin/echo linha-dois
+Tarefa adicionar - /bin/echo cadastrada com sucesso
+processflow> append adicionar saida.txt
+processflow> run adicionar
+processflow> task mostrar /bin/cat
+Tarefa mostrar - /bin/cat cadastrada com sucesso
+processflow> input mostrar saida.txt
+processflow> run mostrar
+
+
+processflow> exit
+Saindo...
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ ./[K[Kmake
+[?2004lmake: Nada a ser feito para 'all'.
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ ./processflow
+[?2004lIniciando modo interativo...
+processflow> task lis star /n a al  bin/ls -l
+Tarefa listar - /bin/ls cadastrada com sucesso
+processflow> run listar      listar
+Makefile  README.md  evidencias.log  main.c  main.o  processflow  saida.txt  tasks.c  tasks.h  tasks.o
+processflow> c input       ouput     tot  put      put
+ERRO: Comando desconhecido
+processflow> output saida     i listar saida.txt
+processflow> run listar
+processflow> task escrever /bin/echo linha-um
+Tarefa escrever - /bin/echo cadastrada com sucesso
+processflow> run escrever
+
+processflow> exit
+Saindo...
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+gcc main.o tasks.o -o processflow
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ ./processflow
+[?2004lIniciando modo interativo...
+processflow> exit
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ .q[K/[K[Kgit add .
+[?2004l[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ git status
+[?2004lNo ramo main
+Your branch is up to date with 'origin/main'.
+
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   evidencias.log[m
+	[32mmodified:   main.c[m
+	[32mmodified:   main.o[m
+	[32mmodified:   processflow[m
+	[32mmodified:   tasks.c[m
+	[32mmodified:   tasks.o[m
+
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ co[K[Kgit commit -m "feat: tratamento de erros"
+[?2004l[main 8a7befd] feat: tratamento de erros
+ 6 files changed, 232 insertions(+), 6 deletions(-)
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ exit
+[?2004lexit
+
+Script concluído em 2026-08-24 18:39:38-03:00 [COMMAND_EXIT_CODE="0"]
