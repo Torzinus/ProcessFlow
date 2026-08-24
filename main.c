@@ -23,11 +23,19 @@ void interativo(){
     int rodando = 1;
     while(rodando == 1){
         printf("processflow> ");
-        fgets(prompt, sizeof(prompt), stdin);
+        
+        if (fgets(prompt, sizeof(prompt), stdin) == NULL) {
+            printf("Saindo...\n");
+            break;
+        }    
+        
         prompt[strcspn(prompt, "\n")] = '\0';
 
         char *tokens[20];
         int n = tokenizar(prompt, tokens);  //n guarda o tamanho da lista de tokens
+        if (n == 0){
+            continue;
+        }
         char *comando = tokens[0];   //comandos: task, run, input, output, start, exit
 
         if (strcmp(comando, "task") == 0){
@@ -48,16 +56,22 @@ void interativo(){
         else if (strcmp(comando, "start") == 0){
             printf("Ainda não implementado\n");
         } else if(strcmp(comando, "exit") == 0){
-            printf("Saindo...\n");
             rodando = 0;
+        } else{
+            printf("ERRO: Comando desconhecido\n");
         }
     }
 
 }
 
 int main(int argc, char ** argv){
-    if (argc == 2){
-        printf("Iniciando modo workflow...\n");
+    if (argc > 2){
+        printf("ERRO: Apenas 2 argumentos são suportados\n");
+        return 1;
+    }
+    else if (argc == 2){
+        printf("Modo workflow ainda não implementado\n");
+        return 1;
     } 
     else if (argc == 1){
         printf("Iniciando modo interativo...\n");

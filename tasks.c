@@ -39,21 +39,34 @@ Tarefa * buscaTask(char *nome){
         }
         t++;
     }
+    return NULL;    //se achou, retorna t, caso contrário, retorna NULL
 }
 
 void input(char ** tokens, int n){  //adiciona o input à struct
     Tarefa * t = buscaTask(tokens[1]);
+    if (t == NULL){ //verifica se a tarefa existe
+        printf("ERRO: Tarefa %s não encontrada\n", tokens[1]);
+        return;
+    }
     strcpy(t->input, tokens[2]);
 }
 
 void output(char ** tokens, int n){
     Tarefa * t = buscaTask(tokens[1]);
+    if (t == NULL){
+        printf("ERRO: Tarefa %s não encontrada\n", tokens[1]);
+        return;
+    }
     strcpy(t->output, tokens[2]);
     t->append = false;
 }
 
 void append(char ** tokens, int n){
     Tarefa * t = buscaTask(tokens[1]);
+    if (t == NULL){
+        printf("ERRO: Tarefa %s não encontrada\n", tokens[1]);
+        return;
+    }
     strcpy(t->output, tokens[2]);
     t->append = true;
 }
@@ -61,6 +74,10 @@ void append(char ** tokens, int n){
 void redirecionar(Tarefa * t){
     if (strcmp(t->input, "") != 0){
         FILE * arquivo = fopen(t->input, "r");
+        if(arquivo == NULL){
+            printf("ERRO: Não foi possível abrir o arquivo %s\n", t->input);
+            exit(1);    //encerra o processo filho
+        }
         int fd = fileno(arquivo); 
         dup2(fd, 0);
     }
@@ -70,6 +87,10 @@ void redirecionar(Tarefa * t){
             arquivo = fopen(t->output, "a");
         } else{
             arquivo = fopen(t->output, "w");
+        }
+        if (arquivo == NULL){
+            printf("ERRO: Não foi possível abrir o arquivo %s\n", t->output);
+            exit(1);
         }
         int fd = fileno(arquivo); 
         dup2(fd, 1);
@@ -81,6 +102,10 @@ void runTask(char ** tokens, int n){
     if (strcmp(tokens[1],"sequential") == 0){
         for(int i = 2; i < n; i ++){
             Tarefa * t = buscaTask(tokens[i]);    //busca a tarefa a partir do nome
+            if (t == NULL){
+                printf("ERRO: Tarefa %s não encontrada\n", tokens[i]);
+                continue;   //se a tarefa não foi encontrada, ele ignora e passa pra próxima
+            }
             runSequential(t);
         }
     } 
@@ -89,7 +114,14 @@ void runTask(char ** tokens, int n){
     } else if (strcmp(tokens[1],"pipe") == 0){
         printf("Executando modo pipe...\n");
     } else{
-        printf("Erro. Insira um modo de execução válido.\n");
+        for(int i = 1; i < n; i ++){
+            Tarefa * t = buscaTask(tokens[i]);   
+            if (t == NULL){
+                printf("ERRO: Tarefa %s não encontrada\n", tokens[i]);
+                continue;   
+            }
+            runSequential(t);
+        }
     }
 }
 
@@ -101,6 +133,9 @@ void runSequential(Tarefa * t){
             redirecionar(t);
         }
         execvp(t->programa, t->argumentos);
+
+        printf("ERRO: Não foi possível executar o programa %s\n", t->programa);
+        exit(1);
     } else if (pid > 0){
         int status;
         waitpid(pid, &status, 0);
@@ -113,6 +148,12 @@ void runParallel(char ** tokens, int n){
 
     for (int i = 2; i < n; i++){
         Tarefa * t = buscaTask(tokens[i]);  //busca a tarefa várias vezes, para cada nome digitado pelo usuário
+
+        if (t == NULL){
+            printf("ERRO: Tarefa %s não encontrada\n", tokens[i]);
+            continue;
+        }
+
         pids[i - 2] = fork();
         
         if(pids[i - 2] == 0){
@@ -120,6 +161,9 @@ void runParallel(char ** tokens, int n){
                 redirecionar(t);
             }
             execvp(t->programa, t->argumentos);
+
+            printf("ERRO: Não foi possível executar o programa %s\n", t->programa);
+            exit(1);
         } 
     }
 
