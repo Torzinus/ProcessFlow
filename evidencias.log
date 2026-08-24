@@ -296,4 +296,1777 @@ processflow> run sw equential sort
 3
 processflow> exit
 Saindo...
-[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ git add .[K[K[K[K[K[K[K[K[Kdate
+[?2004ldom. 23 ago 2026 17:58:16 -03
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ gcc [K[K[Kit add .
+[?2004l[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ git com[K[K[Kstatus
+[?2004lNo ramo main
+Your branch is up to date with 'origin/main'.
+
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   evidencias.log[m
+	[32mmodified:   main.c[m
+	[32mmodified:   processflow[m
+	[32mmodified:   tasks.c[m
+	[32mmodified:   tasks.h[m
+
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ git commit -m "feat: rub [K[K[K[Kparallel mode +M[K [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krun parallel + input"
+[?2004l[main 379d747] feat: run parallel + input
+ 5 files changed, 132 insertions(+), 3 deletions(-)
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ git push
+[?2004lEnumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 6 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 4.61 KiB | 787.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To https://github.com/Torzinus/ProcessFlow.git
+   0caad2e..379d747  main -> main
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ scr[K[K[Kexit
+[?2004lexit
+
+Script concluído em 2026-08-23 18:00:00-03:00 [COMMAND_EXIT_CODE="0"]
+Script iniciado em 2026-08-24 16:09:41-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="152" LINES="28"]
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ date
+[?2004lseg. 24 ago 2026 16:09:45 -03
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ whoami
+[?2004ltorzin
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ pwd
+[?2004l/home/torzin/Downloads/hcs4/ProcessFlow
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+gcc -c tasks.c
+gcc main.o tasks.o -o processflow
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ ./processflow
+[?2004lIniciando modo interativo...
+processflow> exit
+Saindo...
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ d[Kmake
+[?2004lgcc -c main.c
+In file included from [01m[Kmain.c:4[m[K:
+[01m[Ktasks.h:[m[K In function ‘[01m[Koutput[m[K’:
+[01m[Ktasks.h:20:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Kvoid[m[K’
+   20 | [01;31m[Kvoid[m[K redirecionar(Tarefa * t);
+      | [01;31m[K^~~~[m[K
+In file included from [01m[Kmain.c:5[m[K:
+[01m[K/usr/include/unistd.h:255:22:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kuseconds_t[m[K’
+  255 | typedef __useconds_t [01;31m[Kuseconds_t[m[K;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:267:20:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kintptr_t[m[K’
+  267 | typedef __intptr_t [01;31m[Kintptr_t[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:274:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksocklen_t[m[K’
+  274 | typedef __socklen_t [01;31m[Ksocklen_t[m[K;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:287:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kaccess[m[K’
+  287 | extern int [01;31m[Kaccess[m[K (const char *__name, int __type) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:309:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfaccessat[m[K’
+  309 | extern int [01;31m[Kfaccessat[m[K (int __fd, const char *__file, int __type, int __flag)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:339:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klseek[m[K’
+  339 | extern __off_t [01;31m[Klseek[m[K (int __fd, __off_t __offset, int __whence) __THROW;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:358:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kclose[m[K’
+  358 | extern int [01;31m[Kclose[m[K (int __fd);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:363:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kclosefrom[m[K’
+  363 | extern void [01;31m[Kclosefrom[m[K (int __lowfd) __THROW;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:371:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kread[m[K’
+  371 | extern ssize_t [01;31m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:378:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwrite[m[K’
+  378 | extern ssize_t [01;31m[Kwrite[m[K (int __fd, const void *__buf, size_t __n) __wur
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:389:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpread[m[K’
+  389 | extern ssize_t [01;31m[Kpread[m[K (int __fd, void *__buf, size_t __nbytes,
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:398:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpwrite[m[K’
+  398 | extern ssize_t [01;31m[Kpwrite[m[K (int __fd, const void *__buf, size_t __n,
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:437:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpipe[m[K’
+  437 | extern int [01;31m[Kpipe[m[K (int __pipedes[2]) __THROW __wur;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:452:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kalarm[m[K’
+  452 | extern unsigned int [01;31m[Kalarm[m[K (unsigned int __seconds) __THROW;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:464:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksleep[m[K’
+  464 | extern unsigned int [01;31m[Ksleep[m[K (unsigned int __seconds);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:472:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kualarm[m[K’
+  472 | extern __useconds_t [01;31m[Kualarm[m[K (__useconds_t __value, __useconds_t __interval)
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:480:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kusleep[m[K’
+  480 | extern int [01;31m[Kusleep[m[K (__useconds_t __useconds);
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:489:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpause[m[K’
+  489 | extern int [01;31m[Kpause[m[K (void);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:493:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchown[m[K’
+  493 | extern int [01;31m[Kchown[m[K (const char *__file, __uid_t __owner, __gid_t __group)
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:498:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchown[m[K’
+  498 | extern int [01;31m[Kfchown[m[K (int __fd, __uid_t __owner, __gid_t __group) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:503:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klchown[m[K’
+  503 | extern int [01;31m[Klchown[m[K (const char *__file, __uid_t __owner, __gid_t __group)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:511:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchownat[m[K’
+  511 | extern int [01;31m[Kfchownat[m[K (int __fd, const char *__file, __uid_t __owner,
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:517:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchdir[m[K’
+  517 | extern int [01;31m[Kchdir[m[K (const char *__path) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:521:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchdir[m[K’
+  521 | extern int [01;31m[Kfchdir[m[K (int __fd) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:531:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetcwd[m[K’
+  531 | extern char *[01;31m[Kgetcwd[m[K (char *__buf, size_t __size) __THROW __wur;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:545:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetwd[m[K’
+  545 | extern char *[01;31m[Kgetwd[m[K (char *__buf)
+      |              [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:552:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdup[m[K’
+  552 | extern int [01;31m[Kdup[m[K (int __fd) __THROW __wur;
+      |            [01;31m[K^~~[m[K
+[01m[K/usr/include/unistd.h:555:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdup2[m[K’
+  555 | extern int [01;31m[Kdup2[m[K (int __fd, int __fd2) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:564:15:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__environ[m[K’
+  564 | extern char **[01;31m[K__environ[m[K;
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:572:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecve[m[K’
+  572 | extern int [01;31m[Kexecve[m[K (const char *__path, char *const __argv[],
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:578:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfexecve[m[K’
+  578 | extern int [01;31m[Kfexecve[m[K (int __fd, char *const __argv[], char *const __envp[])
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:584:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecv[m[K’
+  584 | extern int [01;31m[Kexecv[m[K (const char *__path, char *const __argv[])
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:589:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecle[m[K’
+  589 | extern int [01;31m[Kexecle[m[K (const char *__path, const char *__arg, ...)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:594:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecl[m[K’
+  594 | extern int [01;31m[Kexecl[m[K (const char *__path, const char *__arg, ...)
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:599:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecvp[m[K’
+  599 | extern int [01;31m[Kexecvp[m[K (const char *__file, char *const __argv[])
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:605:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexeclp[m[K’
+  605 | extern int [01;31m[Kexeclp[m[K (const char *__file, const char *__arg, ...)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:619:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Knice[m[K’
+  619 | extern int [01;31m[Knice[m[K (int __inc) __THROW __wur;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:624:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K_exit[m[K’
+  624 | extern void [01;31m[K_exit[m[K (int __status) __attribute__ ((__noreturn__));
+      |             [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:633:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpathconf[m[K’
+  633 | extern long int [01;31m[Kpathconf[m[K (const char *__path, int __name)
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:637:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfpathconf[m[K’
+  637 | extern long int [01;31m[Kfpathconf[m[K (int __fd, int __name) __THROW;
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:640:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksysconf[m[K’
+  640 | extern long int [01;31m[Ksysconf[m[K (int __name) __THROW;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:644:15:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kconfstr[m[K’
+  644 | extern size_t [01;31m[Kconfstr[m[K (int __name, char *__buf, size_t __len) __THROW
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:650:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpid[m[K’
+  650 | extern __pid_t [01;31m[Kgetpid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:653:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetppid[m[K’
+  653 | extern __pid_t [01;31m[Kgetppid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:656:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpgrp[m[K’
+  656 | extern __pid_t [01;31m[Kgetpgrp[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:659:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__getpgid[m[K’
+  659 | extern __pid_t [01;31m[K__getpgid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:661:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpgid[m[K’
+  661 | extern __pid_t [01;31m[Kgetpgid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:668:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetpgid[m[K’
+  668 | extern int [01;31m[Ksetpgid[m[K (__pid_t __pid, __pid_t __pgid) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:682:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetpgrp[m[K’
+  682 | extern int [01;31m[Ksetpgrp[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:689:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetsid[m[K’
+  689 | extern __pid_t [01;31m[Ksetsid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:693:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetsid[m[K’
+  693 | extern __pid_t [01;31m[Kgetsid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:697:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetuid[m[K’
+  697 | extern __uid_t [01;31m[Kgetuid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:700:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgeteuid[m[K’
+  700 | extern __uid_t [01;31m[Kgeteuid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:703:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetgid[m[K’
+  703 | extern __gid_t [01;31m[Kgetgid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:706:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetegid[m[K’
+  706 | extern __gid_t [01;31m[Kgetegid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:711:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetgroups[m[K’
+  711 | extern int [01;31m[Kgetgroups[m[K (int __size, __gid_t __list[]) __THROW __wur
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:722:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetuid[m[K’
+  722 | extern int [01;31m[Ksetuid[m[K (__uid_t __uid) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:727:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetreuid[m[K’
+  727 | extern int [01;31m[Ksetreuid[m[K (__uid_t __ruid, __uid_t __euid) __THROW __wur;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:732:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kseteuid[m[K’
+  732 | extern int [01;31m[Kseteuid[m[K (__uid_t __uid) __THROW __wur;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:739:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetgid[m[K’
+  739 | extern int [01;31m[Ksetgid[m[K (__gid_t __gid) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:744:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetregid[m[K’
+  744 | extern int [01;31m[Ksetregid[m[K (__gid_t __rgid, __gid_t __egid) __THROW __wur;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:749:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetegid[m[K’
+  749 | extern int [01;31m[Ksetegid[m[K (__gid_t __gid) __THROW __wur;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:778:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfork[m[K’
+  778 | extern __pid_t [01;31m[Kfork[m[K (void) __THROWNL;
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:786:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kvfork[m[K’
+  786 | extern __pid_t [01;31m[Kvfork[m[K (void) __THROW;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:799:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyname[m[K’
+  799 | extern char *[01;31m[Kttyname[m[K (int __fd) __THROW;
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:803:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyname_r[m[K’
+  803 | extern int [01;31m[Kttyname_r[m[K (int __fd, char *__buf, size_t __buflen)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:809:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kisatty[m[K’
+  809 | extern int [01;31m[Kisatty[m[K (int __fd) __THROW;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:814:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyslot[m[K’
+  814 | extern int [01;31m[Kttyslot[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:819:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klink[m[K’
+  819 | extern int [01;31m[Klink[m[K (const char *__from, const char *__to)
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:825:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klinkat[m[K’
+  825 | extern int [01;31m[Klinkat[m[K (int __fromfd, const char *__from, int __tofd,
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:832:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksymlink[m[K’
+  832 | extern int [01;31m[Ksymlink[m[K (const char *__from, const char *__to)
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:838:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kreadlink[m[K’
+  838 | extern ssize_t [01;31m[Kreadlink[m[K (const char *__restrict __path,
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:847:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksymlinkat[m[K’
+  847 | extern int [01;31m[Ksymlinkat[m[K (const char *__from, int __tofd,
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:851:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kreadlinkat[m[K’
+  851 | extern ssize_t [01;31m[Kreadlinkat[m[K (int __fd, const char *__restrict __path,
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:858:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kunlink[m[K’
+  858 | extern int [01;31m[Kunlink[m[K (const char *__name) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:862:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kunlinkat[m[K’
+  862 | extern int [01;31m[Kunlinkat[m[K (int __fd, const char *__name, int __flag)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:867:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Krmdir[m[K’
+  867 | extern int [01;31m[Krmdir[m[K (const char *__path) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:871:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktcgetpgrp[m[K’
+  871 | extern __pid_t [01;31m[Ktcgetpgrp[m[K (int __fd) __THROW;
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:874:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktcsetpgrp[m[K’
+  874 | extern int [01;31m[Ktcsetpgrp[m[K (int __fd, __pid_t __pgrp_id) __THROW;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:881:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetlogin[m[K’
+  881 | extern char *[01;31m[Kgetlogin[m[K (void);
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:889:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetlogin_r[m[K’
+  889 | extern int [01;31m[Kgetlogin_r[m[K (char *__name, size_t __name_len) __nonnull ((1))
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:895:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetlogin[m[K’
+  895 | extern int [01;31m[Ksetlogin[m[K (const char *__name) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:27[m[K,
+                 from [01m[K/usr/include/unistd.h:903[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:36:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptarg[m[K’
+   36 | extern char *[01;31m[Koptarg[m[K;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:50:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptind[m[K’
+   50 | extern int [01;31m[Koptind[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:55:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kopterr[m[K’
+   55 | extern int [01;31m[Kopterr[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:59:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptopt[m[K’
+   59 | extern int [01;31m[Koptopt[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:91:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetopt[m[K’
+   91 | extern int [01;31m[Kgetopt[m[K (int ___argc, char *const *___argv, const char *__shortopts)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:911:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgethostname[m[K’
+  911 | extern int [01;31m[Kgethostname[m[K (char *__name, size_t __len) __THROW __nonnull ((1))
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:919:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksethostname[m[K’
+  919 | extern int [01;31m[Ksethostname[m[K (const char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:924:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksethostid[m[K’
+  924 | extern int [01;31m[Ksethostid[m[K (long int __id) __THROW __wur;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:930:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetdomainname[m[K’
+  930 | extern int [01;31m[Kgetdomainname[m[K (char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:933:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetdomainname[m[K’
+  933 | extern int [01;31m[Ksetdomainname[m[K (const char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:939:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kvhangup[m[K’
+  939 | extern int [01;31m[Kvhangup[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:942:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Krevoke[m[K’
+  942 | extern int [01;31m[Krevoke[m[K (const char *__file) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:950:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kprofil[m[K’
+  950 | extern int [01;31m[Kprofil[m[K (unsigned short int *__sample_buffer, size_t __size,
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:958:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kacct[m[K’
+  958 | extern int [01;31m[Kacct[m[K (const char *__name) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:962:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetusershell[m[K’
+  962 | extern char *[01;31m[Kgetusershell[m[K (void) __THROW;
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:963:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kendusershell[m[K’
+  963 | extern void [01;31m[Kendusershell[m[K (void) __THROW; /* Discard cached info.  */
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:964:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetusershell[m[K’
+  964 | extern void [01;31m[Ksetusershell[m[K (void) __THROW; /* Rewind and re-read the file.  */
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:970:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdaemon[m[K’
+  970 | extern int [01;31m[Kdaemon[m[K (int __nochdir, int __noclose) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:977:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchroot[m[K’
+  977 | extern int [01;31m[Kchroot[m[K (const char *__path) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:981:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpass[m[K’
+  981 | extern char *[01;31m[Kgetpass[m[K (const char *__prompt) __nonnull ((1));
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:989:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfsync[m[K’
+  989 | extern int [01;31m[Kfsync[m[K (int __fd);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:1002:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgethostid[m[K’
+ 1002 | extern long int [01;31m[Kgethostid[m[K (void);
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1005:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksync[m[K’
+ 1005 | extern void [01;31m[Ksync[m[K (void) __THROW;
+      |             [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:1011:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpagesize[m[K’
+ 1011 | extern int [01;31m[Kgetpagesize[m[K (void)  __THROW __attribute__ ((__const__));
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1016:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetdtablesize[m[K’
+ 1016 | extern int [01;31m[Kgetdtablesize[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1026:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktruncate[m[K’
+ 1026 | extern int [01;31m[Ktruncate[m[K (const char *__file, __off_t __length)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1049:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kftruncate[m[K’
+ 1049 | extern int [01;31m[Kftruncate[m[K (int __fd, __off_t __length) __THROW __wur;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1070:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kbrk[m[K’
+ 1070 | extern int [01;31m[Kbrk[m[K (void *__addr) __THROW __wur;
+      |            [01;31m[K^~~[m[K
+[01m[K/usr/include/unistd.h:1076:20:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Kintptr_t[m[K’
+ 1076 | extern void *sbrk ([01;31m[Kintptr_t[m[K __delta) __THROW;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1091:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksyscall[m[K’
+ 1091 | extern long int [01;31m[Ksyscall[m[K (long int __sysno, ...) __THROW;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1114:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klockf[m[K’
+ 1114 | extern int [01;31m[Klockf[m[K (int __fd, int __cmd, __off_t __len) __wur;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:1150:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfdatasync[m[K’
+ 1150 | extern int [01;31m[Kfdatasync[m[K (int __fildes);
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1162:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kcrypt[m[K’
+ 1162 | extern char *[01;31m[Kcrypt[m[K (const char *__key, const char *__salt)
+      |              [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:32[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:36[m[K,
+                 from [01m[Kmain.c:6[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:8:24:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksig_atomic_t[m[K’
+    8 | typedef __sig_atomic_t [01;31m[Ksig_atomic_t[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:6[m[K,
+                 from [01m[K/usr/include/signal.h:57[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:30:22:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__sigval_t[m[K’
+   30 | typedef union sigval [01;31m[K__sigval_t[m[K;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:67:13:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   67 |             [01;31m[K__sigval_t[m[K si_sigval;       /* Signal value.  */
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:75:13:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   75 |             [01;31m[K__sigval_t[m[K si_sigval;       /* Signal value.  */
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:124:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiginfo_t[m[K’
+  124 |   } [01;31m[Ksiginfo_t[m[K __SI_ALIGNMENT;
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:62[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:16:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksigval_t[m[K’
+   16 | typedef __sigval_t [01;31m[Ksigval_t[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:66[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:24:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   24 |     [01;31m[K__sigval_t[m[K sigev_value;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:42:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigevent_t[m[K’
+   42 |   } [01;31m[Ksigevent_t[m[K;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:72:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__sighandler_t[m[K’
+   72 | typedef void (*[01;31m[K__sighandler_t[m[K) (int);
+      |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:77:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K__sysv_signal[m[K’
+   77 | extern __sighandler_t [01;31m[K__sysv_signal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:88:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksignal[m[K’
+   88 | extern __sighandler_t [01;31m[Ksignal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/signal.h:112:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kkill[m[K’
+  112 | extern int [01;31m[Kkill[m[K (__pid_t __pid, int __sig) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/signal.h:119:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kkillpg[m[K’
+  119 | extern int [01;31m[Kkillpg[m[K (__pid_t __pgrp, int __sig) __THROW;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/signal.h:123:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kraise[m[K’
+  123 | extern int [01;31m[Kraise[m[K (int __sig) __THROW;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/signal.h:127:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Kssignal[m[K’
+  127 | extern __sighandler_t [01;31m[Kssignal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:129:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgsignal[m[K’
+  129 | extern int [01;31m[Kgsignal[m[K (int __sig) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:134:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpsignal[m[K’
+  134 | extern void [01;31m[Kpsignal[m[K (int __sig, const char *__s);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:137:29:[m[K [01;31m[Kerror: [m[Ktype defaults to ‘[01m[Kint[m[K’ in declaration of ‘[01m[Ksiginfo_t[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-int-Wimplicit-int]8;;[m[K]
+  137 | extern void psiginfo (const [01;31m[Ksiginfo_t[m[K *__pinfo, const char *__s);
+      |                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:137:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’, ‘[01m[K,[m[K’ or ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+  137 | extern void psiginfo (const siginfo_t [01;31m[K*[m[K__pinfo, const char *__s);
+      |                                       [01;31m[K^[m[K
+[01m[K/usr/include/signal.h:173:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigblock[m[K’
+  173 | extern int [01;31m[Ksigblock[m[K (int __mask) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/signal.h:176:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigsetmask[m[K’
+  176 | extern int [01;31m[Ksigsetmask[m[K (int __mask) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:179:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiggetmask[m[K’
+  179 | extern int [01;31m[Ksiggetmask[m[K (void) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:193:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksig_t[m[K’
+  193 | typedef __sighandler_t [01;31m[Ksig_t[m[K;
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/usr/include/signal.h:199:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigemptyset[m[K’
+  199 | extern int [01;31m[Ksigemptyset[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:202:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigfillset[m[K’
+  202 | extern int [01;31m[Ksigfillset[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:205:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigaddset[m[K’
+  205 | extern int [01;31m[Ksigaddset[m[K (sigset_t *__set, int __signo) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:208:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigdelset[m[K’
+  208 | extern int [01;31m[Ksigdelset[m[K (sigset_t *__set, int __signo) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:211:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigismember[m[K’
+  211 | extern int [01;31m[Ksigismember[m[K (const sigset_t *__set, int __signo)
+      |            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:229[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigaction.h:34:9:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sighandler_t[m[K’
+   34 |         [01;31m[K__sighandler_t[m[K sa_handler;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:232:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigprocmask[m[K’
+  232 | extern int [01;31m[Ksigprocmask[m[K (int __how, const sigset_t *__restrict __set,
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:240:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigsuspend[m[K’
+  240 | extern int [01;31m[Ksigsuspend[m[K (const sigset_t *__set) __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:243:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigaction[m[K’
+  243 | extern int [01;31m[Ksigaction[m[K (int __sig, const struct sigaction *__restrict __act,
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:247:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigpending[m[K’
+  247 | extern int [01;31m[Ksigpending[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:255:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigwait[m[K’
+  255 | extern int [01;31m[Ksigwait[m[K (const sigset_t *__restrict __set, int *__restrict __sig)
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:265:25:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  265 |                         [01;31m[Ksiginfo_t[m[K *__restrict __info) __nonnull ((1));
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:274:26:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  274 |                          [01;31m[Ksiginfo_t[m[K *__restrict __info,
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:292:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigqueue[m[K’
+  292 | extern int [01;31m[Ksigqueue[m[K (__pid_t __pid, int __sig, const union sigval __val)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/signal.h:304:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigreturn[m[K’
+  304 | extern int [01;31m[Ksigreturn[m[K (struct sigcontext *__scp) __THROW;
+      |            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:313[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:31:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kstack_t[m[K’
+   31 |   } [01;31m[Kstack_t[m[K;
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:316[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:37:1:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers before ‘[01m[K__extension__[m[K’
+   37 | [01;31m[K__extension__[m[K typedef long long int greg_t;
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:46:9:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kgreg_t[m[K’
+   46 | typedef [01;31m[Kgreg_t[m[K gregset_t[__NGREG];
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:46:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgregset_t[m[K’
+   46 | typedef greg_t [01;31m[Kgregset_t[m[K[__NGREG];
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:130:31:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfpregset_t[m[K’
+  130 | typedef struct _libc_fpstate *[01;31m[Kfpregset_t[m[K;
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:135:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[Kgregset_t[m[K’
+  135 |     [01;31m[Kgregset_t[m[K __ctx(gregs);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:139:3:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kmcontext_t[m[K’
+  139 | } [01;31m[Kmcontext_t[m[K;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:146:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[Kstack_t[m[K’
+  146 |     [01;31m[Kstack_t[m[K uc_stack;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:151:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kucontext_t[m[K’
+  151 |   } [01;31m[Kucontext_t[m[K;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:324:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiginterrupt[m[K’
+  324 | extern int [01;31m[Ksiginterrupt[m[K (int __sig, int __interrupt) __THROW
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:333:31:[m[K [01;31m[Kerror: [m[Ktype defaults to ‘[01m[Kint[m[K’ in declaration of ‘[01m[Kstack_t[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-int-Wimplicit-int]8;;[m[K]
+  333 | extern int sigaltstack (const [01;31m[Kstack_t[m[K *__restrict __ss,
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:333:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’, ‘[01m[K,[m[K’ or ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+  333 | extern int sigaltstack (const stack_t [01;31m[K*[m[K__restrict __ss,
+      |                                       [01;31m[K^[m[K
+[01m[K/usr/include/signal.h:347:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigstack[m[K’
+  347 | extern int [01;31m[Ksigstack[m[K (struct sigstack *__ss, struct sigstack *__oss)
+      |            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:376[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigthread.h:31:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpthread_sigmask[m[K’
+   31 | extern int [01;31m[Kpthread_sigmask[m[K (int __how,
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigthread.h:36:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpthread_kill[m[K’
+   36 | extern int [01;31m[Kpthread_kill[m[K (pthread_t __threadid, int __signo) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:383:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__libc_current_sigrtmin[m[K’
+  383 | extern int [01;31m[K__libc_current_sigrtmin[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:385:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__libc_current_sigrtmax[m[K’
+  385 | extern int [01;31m[K__libc_current_sigrtmax[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:74[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:12:3:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kidtype_t[m[K’
+   12 | } [01;31m[Kidtype_t[m[K;
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:83:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait[m[K’
+   83 | extern __pid_t [01;31m[Kwait[m[K (int *__stat_loc);
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:106:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwaitpid[m[K’
+  106 | extern __pid_t [01;31m[Kwaitpid[m[K (__pid_t __pid, int *__stat_loc, int __options);
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:127:20:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Kidtype_t[m[K’
+  127 | extern int waitid ([01;31m[Kidtype_t[m[K __idtype, __id_t __id, siginfo_t *__infop,
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:127:52:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  127 | extern int waitid (idtype_t __idtype, __id_t __id, [01;31m[Ksiginfo_t[m[K *__infop,
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:143:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait3[m[K’
+  143 | extern __pid_t [01;31m[Kwait3[m[K (int *__stat_loc, int __options,
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:159:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait4[m[K’
+  159 | extern __pid_t [01;31m[Kwait4[m[K (__pid_t __pid, int *__stat_loc, int __options,
+      |                [01;31m[K^~~~~[m[K
+[01m[Kmain.c:9:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+    9 | int tokenizar(char * prompt, char ** tokens)[01;31m[K{[m[K
+      |                                             [01;31m[K^[m[K
+[01m[Kmain.c:21:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   21 | void interativo()[01;31m[K{[m[K
+      |                  [01;31m[K^[m[K
+[01m[Kmain.c:58:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   58 | int main(int argc, char ** argv)[01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[Ktasks.h:18:6:[m[K [01;31m[Kerror: [m[Kold-style parameter declarations in prototyped function definition
+   18 | void [01;31m[Koutput[m[K(char ** tokens, int n)
+      |      [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+make: *** [Makefile:7: main.o] Error 1
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+In file included from [01m[Kmain.c:4[m[K:
+[01m[Ktasks.h:[m[K In function ‘[01m[Koutput[m[K’:
+[01m[Ktasks.h:20:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Kvoid[m[K’
+   20 | [01;31m[Kvoid[m[K redirecionar(Tarefa * t);
+      | [01;31m[K^~~~[m[K
+In file included from [01m[Kmain.c:5[m[K:
+[01m[K/usr/include/unistd.h:255:22:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kuseconds_t[m[K’
+  255 | typedef __useconds_t [01;31m[Kuseconds_t[m[K;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:267:20:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kintptr_t[m[K’
+  267 | typedef __intptr_t [01;31m[Kintptr_t[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:274:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksocklen_t[m[K’
+  274 | typedef __socklen_t [01;31m[Ksocklen_t[m[K;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:287:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kaccess[m[K’
+  287 | extern int [01;31m[Kaccess[m[K (const char *__name, int __type) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:309:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfaccessat[m[K’
+  309 | extern int [01;31m[Kfaccessat[m[K (int __fd, const char *__file, int __type, int __flag)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:339:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klseek[m[K’
+  339 | extern __off_t [01;31m[Klseek[m[K (int __fd, __off_t __offset, int __whence) __THROW;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:358:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kclose[m[K’
+  358 | extern int [01;31m[Kclose[m[K (int __fd);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:363:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kclosefrom[m[K’
+  363 | extern void [01;31m[Kclosefrom[m[K (int __lowfd) __THROW;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:371:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kread[m[K’
+  371 | extern ssize_t [01;31m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:378:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwrite[m[K’
+  378 | extern ssize_t [01;31m[Kwrite[m[K (int __fd, const void *__buf, size_t __n) __wur
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:389:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpread[m[K’
+  389 | extern ssize_t [01;31m[Kpread[m[K (int __fd, void *__buf, size_t __nbytes,
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:398:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpwrite[m[K’
+  398 | extern ssize_t [01;31m[Kpwrite[m[K (int __fd, const void *__buf, size_t __n,
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:437:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpipe[m[K’
+  437 | extern int [01;31m[Kpipe[m[K (int __pipedes[2]) __THROW __wur;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:452:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kalarm[m[K’
+  452 | extern unsigned int [01;31m[Kalarm[m[K (unsigned int __seconds) __THROW;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:464:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksleep[m[K’
+  464 | extern unsigned int [01;31m[Ksleep[m[K (unsigned int __seconds);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:472:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kualarm[m[K’
+  472 | extern __useconds_t [01;31m[Kualarm[m[K (__useconds_t __value, __useconds_t __interval)
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:480:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kusleep[m[K’
+  480 | extern int [01;31m[Kusleep[m[K (__useconds_t __useconds);
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:489:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpause[m[K’
+  489 | extern int [01;31m[Kpause[m[K (void);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:493:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchown[m[K’
+  493 | extern int [01;31m[Kchown[m[K (const char *__file, __uid_t __owner, __gid_t __group)
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:498:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchown[m[K’
+  498 | extern int [01;31m[Kfchown[m[K (int __fd, __uid_t __owner, __gid_t __group) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:503:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klchown[m[K’
+  503 | extern int [01;31m[Klchown[m[K (const char *__file, __uid_t __owner, __gid_t __group)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:511:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchownat[m[K’
+  511 | extern int [01;31m[Kfchownat[m[K (int __fd, const char *__file, __uid_t __owner,
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:517:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchdir[m[K’
+  517 | extern int [01;31m[Kchdir[m[K (const char *__path) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:521:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchdir[m[K’
+  521 | extern int [01;31m[Kfchdir[m[K (int __fd) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:531:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetcwd[m[K’
+  531 | extern char *[01;31m[Kgetcwd[m[K (char *__buf, size_t __size) __THROW __wur;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:545:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetwd[m[K’
+  545 | extern char *[01;31m[Kgetwd[m[K (char *__buf)
+      |              [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:552:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdup[m[K’
+  552 | extern int [01;31m[Kdup[m[K (int __fd) __THROW __wur;
+      |            [01;31m[K^~~[m[K
+[01m[K/usr/include/unistd.h:555:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdup2[m[K’
+  555 | extern int [01;31m[Kdup2[m[K (int __fd, int __fd2) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:564:15:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__environ[m[K’
+  564 | extern char **[01;31m[K__environ[m[K;
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:572:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecve[m[K’
+  572 | extern int [01;31m[Kexecve[m[K (const char *__path, char *const __argv[],
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:578:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfexecve[m[K’
+  578 | extern int [01;31m[Kfexecve[m[K (int __fd, char *const __argv[], char *const __envp[])
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:584:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecv[m[K’
+  584 | extern int [01;31m[Kexecv[m[K (const char *__path, char *const __argv[])
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:589:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecle[m[K’
+  589 | extern int [01;31m[Kexecle[m[K (const char *__path, const char *__arg, ...)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:594:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecl[m[K’
+  594 | extern int [01;31m[Kexecl[m[K (const char *__path, const char *__arg, ...)
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:599:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecvp[m[K’
+  599 | extern int [01;31m[Kexecvp[m[K (const char *__file, char *const __argv[])
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:605:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexeclp[m[K’
+  605 | extern int [01;31m[Kexeclp[m[K (const char *__file, const char *__arg, ...)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:619:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Knice[m[K’
+  619 | extern int [01;31m[Knice[m[K (int __inc) __THROW __wur;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:624:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K_exit[m[K’
+  624 | extern void [01;31m[K_exit[m[K (int __status) __attribute__ ((__noreturn__));
+      |             [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:633:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpathconf[m[K’
+  633 | extern long int [01;31m[Kpathconf[m[K (const char *__path, int __name)
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:637:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfpathconf[m[K’
+  637 | extern long int [01;31m[Kfpathconf[m[K (int __fd, int __name) __THROW;
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:640:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksysconf[m[K’
+  640 | extern long int [01;31m[Ksysconf[m[K (int __name) __THROW;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:644:15:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kconfstr[m[K’
+  644 | extern size_t [01;31m[Kconfstr[m[K (int __name, char *__buf, size_t __len) __THROW
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:650:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpid[m[K’
+  650 | extern __pid_t [01;31m[Kgetpid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:653:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetppid[m[K’
+  653 | extern __pid_t [01;31m[Kgetppid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:656:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpgrp[m[K’
+  656 | extern __pid_t [01;31m[Kgetpgrp[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:659:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__getpgid[m[K’
+  659 | extern __pid_t [01;31m[K__getpgid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:661:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpgid[m[K’
+  661 | extern __pid_t [01;31m[Kgetpgid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:668:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetpgid[m[K’
+  668 | extern int [01;31m[Ksetpgid[m[K (__pid_t __pid, __pid_t __pgid) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:682:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetpgrp[m[K’
+  682 | extern int [01;31m[Ksetpgrp[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:689:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetsid[m[K’
+  689 | extern __pid_t [01;31m[Ksetsid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:693:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetsid[m[K’
+  693 | extern __pid_t [01;31m[Kgetsid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:697:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetuid[m[K’
+  697 | extern __uid_t [01;31m[Kgetuid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:700:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgeteuid[m[K’
+  700 | extern __uid_t [01;31m[Kgeteuid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:703:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetgid[m[K’
+  703 | extern __gid_t [01;31m[Kgetgid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:706:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetegid[m[K’
+  706 | extern __gid_t [01;31m[Kgetegid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:711:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetgroups[m[K’
+  711 | extern int [01;31m[Kgetgroups[m[K (int __size, __gid_t __list[]) __THROW __wur
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:722:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetuid[m[K’
+  722 | extern int [01;31m[Ksetuid[m[K (__uid_t __uid) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:727:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetreuid[m[K’
+  727 | extern int [01;31m[Ksetreuid[m[K (__uid_t __ruid, __uid_t __euid) __THROW __wur;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:732:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kseteuid[m[K’
+  732 | extern int [01;31m[Kseteuid[m[K (__uid_t __uid) __THROW __wur;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:739:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetgid[m[K’
+  739 | extern int [01;31m[Ksetgid[m[K (__gid_t __gid) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:744:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetregid[m[K’
+  744 | extern int [01;31m[Ksetregid[m[K (__gid_t __rgid, __gid_t __egid) __THROW __wur;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:749:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetegid[m[K’
+  749 | extern int [01;31m[Ksetegid[m[K (__gid_t __gid) __THROW __wur;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:778:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfork[m[K’
+  778 | extern __pid_t [01;31m[Kfork[m[K (void) __THROWNL;
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:786:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kvfork[m[K’
+  786 | extern __pid_t [01;31m[Kvfork[m[K (void) __THROW;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:799:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyname[m[K’
+  799 | extern char *[01;31m[Kttyname[m[K (int __fd) __THROW;
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:803:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyname_r[m[K’
+  803 | extern int [01;31m[Kttyname_r[m[K (int __fd, char *__buf, size_t __buflen)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:809:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kisatty[m[K’
+  809 | extern int [01;31m[Kisatty[m[K (int __fd) __THROW;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:814:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyslot[m[K’
+  814 | extern int [01;31m[Kttyslot[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:819:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klink[m[K’
+  819 | extern int [01;31m[Klink[m[K (const char *__from, const char *__to)
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:825:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klinkat[m[K’
+  825 | extern int [01;31m[Klinkat[m[K (int __fromfd, const char *__from, int __tofd,
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:832:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksymlink[m[K’
+  832 | extern int [01;31m[Ksymlink[m[K (const char *__from, const char *__to)
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:838:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kreadlink[m[K’
+  838 | extern ssize_t [01;31m[Kreadlink[m[K (const char *__restrict __path,
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:847:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksymlinkat[m[K’
+  847 | extern int [01;31m[Ksymlinkat[m[K (const char *__from, int __tofd,
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:851:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kreadlinkat[m[K’
+  851 | extern ssize_t [01;31m[Kreadlinkat[m[K (int __fd, const char *__restrict __path,
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:858:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kunlink[m[K’
+  858 | extern int [01;31m[Kunlink[m[K (const char *__name) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:862:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kunlinkat[m[K’
+  862 | extern int [01;31m[Kunlinkat[m[K (int __fd, const char *__name, int __flag)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:867:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Krmdir[m[K’
+  867 | extern int [01;31m[Krmdir[m[K (const char *__path) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:871:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktcgetpgrp[m[K’
+  871 | extern __pid_t [01;31m[Ktcgetpgrp[m[K (int __fd) __THROW;
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:874:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktcsetpgrp[m[K’
+  874 | extern int [01;31m[Ktcsetpgrp[m[K (int __fd, __pid_t __pgrp_id) __THROW;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:881:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetlogin[m[K’
+  881 | extern char *[01;31m[Kgetlogin[m[K (void);
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:889:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetlogin_r[m[K’
+  889 | extern int [01;31m[Kgetlogin_r[m[K (char *__name, size_t __name_len) __nonnull ((1))
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:895:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetlogin[m[K’
+  895 | extern int [01;31m[Ksetlogin[m[K (const char *__name) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:27[m[K,
+                 from [01m[K/usr/include/unistd.h:903[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:36:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptarg[m[K’
+   36 | extern char *[01;31m[Koptarg[m[K;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:50:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptind[m[K’
+   50 | extern int [01;31m[Koptind[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:55:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kopterr[m[K’
+   55 | extern int [01;31m[Kopterr[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:59:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptopt[m[K’
+   59 | extern int [01;31m[Koptopt[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:91:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetopt[m[K’
+   91 | extern int [01;31m[Kgetopt[m[K (int ___argc, char *const *___argv, const char *__shortopts)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:911:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgethostname[m[K’
+  911 | extern int [01;31m[Kgethostname[m[K (char *__name, size_t __len) __THROW __nonnull ((1))
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:919:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksethostname[m[K’
+  919 | extern int [01;31m[Ksethostname[m[K (const char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:924:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksethostid[m[K’
+  924 | extern int [01;31m[Ksethostid[m[K (long int __id) __THROW __wur;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:930:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetdomainname[m[K’
+  930 | extern int [01;31m[Kgetdomainname[m[K (char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:933:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetdomainname[m[K’
+  933 | extern int [01;31m[Ksetdomainname[m[K (const char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:939:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kvhangup[m[K’
+  939 | extern int [01;31m[Kvhangup[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:942:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Krevoke[m[K’
+  942 | extern int [01;31m[Krevoke[m[K (const char *__file) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:950:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kprofil[m[K’
+  950 | extern int [01;31m[Kprofil[m[K (unsigned short int *__sample_buffer, size_t __size,
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:958:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kacct[m[K’
+  958 | extern int [01;31m[Kacct[m[K (const char *__name) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:962:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetusershell[m[K’
+  962 | extern char *[01;31m[Kgetusershell[m[K (void) __THROW;
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:963:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kendusershell[m[K’
+  963 | extern void [01;31m[Kendusershell[m[K (void) __THROW; /* Discard cached info.  */
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:964:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetusershell[m[K’
+  964 | extern void [01;31m[Ksetusershell[m[K (void) __THROW; /* Rewind and re-read the file.  */
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:970:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdaemon[m[K’
+  970 | extern int [01;31m[Kdaemon[m[K (int __nochdir, int __noclose) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:977:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchroot[m[K’
+  977 | extern int [01;31m[Kchroot[m[K (const char *__path) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:981:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpass[m[K’
+  981 | extern char *[01;31m[Kgetpass[m[K (const char *__prompt) __nonnull ((1));
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:989:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfsync[m[K’
+  989 | extern int [01;31m[Kfsync[m[K (int __fd);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:1002:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgethostid[m[K’
+ 1002 | extern long int [01;31m[Kgethostid[m[K (void);
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1005:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksync[m[K’
+ 1005 | extern void [01;31m[Ksync[m[K (void) __THROW;
+      |             [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:1011:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpagesize[m[K’
+ 1011 | extern int [01;31m[Kgetpagesize[m[K (void)  __THROW __attribute__ ((__const__));
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1016:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetdtablesize[m[K’
+ 1016 | extern int [01;31m[Kgetdtablesize[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1026:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktruncate[m[K’
+ 1026 | extern int [01;31m[Ktruncate[m[K (const char *__file, __off_t __length)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1049:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kftruncate[m[K’
+ 1049 | extern int [01;31m[Kftruncate[m[K (int __fd, __off_t __length) __THROW __wur;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1070:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kbrk[m[K’
+ 1070 | extern int [01;31m[Kbrk[m[K (void *__addr) __THROW __wur;
+      |            [01;31m[K^~~[m[K
+[01m[K/usr/include/unistd.h:1076:20:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Kintptr_t[m[K’
+ 1076 | extern void *sbrk ([01;31m[Kintptr_t[m[K __delta) __THROW;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1091:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksyscall[m[K’
+ 1091 | extern long int [01;31m[Ksyscall[m[K (long int __sysno, ...) __THROW;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1114:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klockf[m[K’
+ 1114 | extern int [01;31m[Klockf[m[K (int __fd, int __cmd, __off_t __len) __wur;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:1150:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfdatasync[m[K’
+ 1150 | extern int [01;31m[Kfdatasync[m[K (int __fildes);
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1162:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kcrypt[m[K’
+ 1162 | extern char *[01;31m[Kcrypt[m[K (const char *__key, const char *__salt)
+      |              [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:32[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:36[m[K,
+                 from [01m[Kmain.c:6[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:8:24:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksig_atomic_t[m[K’
+    8 | typedef __sig_atomic_t [01;31m[Ksig_atomic_t[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:6[m[K,
+                 from [01m[K/usr/include/signal.h:57[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:30:22:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__sigval_t[m[K’
+   30 | typedef union sigval [01;31m[K__sigval_t[m[K;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:67:13:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   67 |             [01;31m[K__sigval_t[m[K si_sigval;       /* Signal value.  */
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:75:13:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   75 |             [01;31m[K__sigval_t[m[K si_sigval;       /* Signal value.  */
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:124:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiginfo_t[m[K’
+  124 |   } [01;31m[Ksiginfo_t[m[K __SI_ALIGNMENT;
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:62[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:16:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksigval_t[m[K’
+   16 | typedef __sigval_t [01;31m[Ksigval_t[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:66[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:24:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   24 |     [01;31m[K__sigval_t[m[K sigev_value;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:42:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigevent_t[m[K’
+   42 |   } [01;31m[Ksigevent_t[m[K;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:72:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__sighandler_t[m[K’
+   72 | typedef void (*[01;31m[K__sighandler_t[m[K) (int);
+      |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:77:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K__sysv_signal[m[K’
+   77 | extern __sighandler_t [01;31m[K__sysv_signal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:88:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksignal[m[K’
+   88 | extern __sighandler_t [01;31m[Ksignal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/signal.h:112:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kkill[m[K’
+  112 | extern int [01;31m[Kkill[m[K (__pid_t __pid, int __sig) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/signal.h:119:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kkillpg[m[K’
+  119 | extern int [01;31m[Kkillpg[m[K (__pid_t __pgrp, int __sig) __THROW;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/signal.h:123:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kraise[m[K’
+  123 | extern int [01;31m[Kraise[m[K (int __sig) __THROW;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/signal.h:127:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Kssignal[m[K’
+  127 | extern __sighandler_t [01;31m[Kssignal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:129:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgsignal[m[K’
+  129 | extern int [01;31m[Kgsignal[m[K (int __sig) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:134:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpsignal[m[K’
+  134 | extern void [01;31m[Kpsignal[m[K (int __sig, const char *__s);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:137:29:[m[K [01;31m[Kerror: [m[Ktype defaults to ‘[01m[Kint[m[K’ in declaration of ‘[01m[Ksiginfo_t[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-int-Wimplicit-int]8;;[m[K]
+  137 | extern void psiginfo (const [01;31m[Ksiginfo_t[m[K *__pinfo, const char *__s);
+      |                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:137:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’, ‘[01m[K,[m[K’ or ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+  137 | extern void psiginfo (const siginfo_t [01;31m[K*[m[K__pinfo, const char *__s);
+      |                                       [01;31m[K^[m[K
+[01m[K/usr/include/signal.h:173:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigblock[m[K’
+  173 | extern int [01;31m[Ksigblock[m[K (int __mask) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/signal.h:176:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigsetmask[m[K’
+  176 | extern int [01;31m[Ksigsetmask[m[K (int __mask) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:179:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiggetmask[m[K’
+  179 | extern int [01;31m[Ksiggetmask[m[K (void) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:193:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksig_t[m[K’
+  193 | typedef __sighandler_t [01;31m[Ksig_t[m[K;
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/usr/include/signal.h:199:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigemptyset[m[K’
+  199 | extern int [01;31m[Ksigemptyset[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:202:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigfillset[m[K’
+  202 | extern int [01;31m[Ksigfillset[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:205:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigaddset[m[K’
+  205 | extern int [01;31m[Ksigaddset[m[K (sigset_t *__set, int __signo) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:208:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigdelset[m[K’
+  208 | extern int [01;31m[Ksigdelset[m[K (sigset_t *__set, int __signo) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:211:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigismember[m[K’
+  211 | extern int [01;31m[Ksigismember[m[K (const sigset_t *__set, int __signo)
+      |            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:229[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigaction.h:34:9:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sighandler_t[m[K’
+   34 |         [01;31m[K__sighandler_t[m[K sa_handler;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:232:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigprocmask[m[K’
+  232 | extern int [01;31m[Ksigprocmask[m[K (int __how, const sigset_t *__restrict __set,
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:240:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigsuspend[m[K’
+  240 | extern int [01;31m[Ksigsuspend[m[K (const sigset_t *__set) __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:243:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigaction[m[K’
+  243 | extern int [01;31m[Ksigaction[m[K (int __sig, const struct sigaction *__restrict __act,
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:247:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigpending[m[K’
+  247 | extern int [01;31m[Ksigpending[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:255:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigwait[m[K’
+  255 | extern int [01;31m[Ksigwait[m[K (const sigset_t *__restrict __set, int *__restrict __sig)
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:265:25:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  265 |                         [01;31m[Ksiginfo_t[m[K *__restrict __info) __nonnull ((1));
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:274:26:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  274 |                          [01;31m[Ksiginfo_t[m[K *__restrict __info,
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:292:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigqueue[m[K’
+  292 | extern int [01;31m[Ksigqueue[m[K (__pid_t __pid, int __sig, const union sigval __val)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/signal.h:304:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigreturn[m[K’
+  304 | extern int [01;31m[Ksigreturn[m[K (struct sigcontext *__scp) __THROW;
+      |            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:313[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:31:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kstack_t[m[K’
+   31 |   } [01;31m[Kstack_t[m[K;
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:316[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:37:1:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers before ‘[01m[K__extension__[m[K’
+   37 | [01;31m[K__extension__[m[K typedef long long int greg_t;
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:46:9:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kgreg_t[m[K’
+   46 | typedef [01;31m[Kgreg_t[m[K gregset_t[__NGREG];
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:46:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgregset_t[m[K’
+   46 | typedef greg_t [01;31m[Kgregset_t[m[K[__NGREG];
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:130:31:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfpregset_t[m[K’
+  130 | typedef struct _libc_fpstate *[01;31m[Kfpregset_t[m[K;
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:135:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[Kgregset_t[m[K’
+  135 |     [01;31m[Kgregset_t[m[K __ctx(gregs);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:139:3:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kmcontext_t[m[K’
+  139 | } [01;31m[Kmcontext_t[m[K;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:146:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[Kstack_t[m[K’
+  146 |     [01;31m[Kstack_t[m[K uc_stack;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:151:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kucontext_t[m[K’
+  151 |   } [01;31m[Kucontext_t[m[K;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:324:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiginterrupt[m[K’
+  324 | extern int [01;31m[Ksiginterrupt[m[K (int __sig, int __interrupt) __THROW
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:333:31:[m[K [01;31m[Kerror: [m[Ktype defaults to ‘[01m[Kint[m[K’ in declaration of ‘[01m[Kstack_t[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-int-Wimplicit-int]8;;[m[K]
+  333 | extern int sigaltstack (const [01;31m[Kstack_t[m[K *__restrict __ss,
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:333:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’, ‘[01m[K,[m[K’ or ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+  333 | extern int sigaltstack (const stack_t [01;31m[K*[m[K__restrict __ss,
+      |                                       [01;31m[K^[m[K
+[01m[K/usr/include/signal.h:347:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigstack[m[K’
+  347 | extern int [01;31m[Ksigstack[m[K (struct sigstack *__ss, struct sigstack *__oss)
+      |            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:376[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigthread.h:31:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpthread_sigmask[m[K’
+   31 | extern int [01;31m[Kpthread_sigmask[m[K (int __how,
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigthread.h:36:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpthread_kill[m[K’
+   36 | extern int [01;31m[Kpthread_kill[m[K (pthread_t __threadid, int __signo) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:383:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__libc_current_sigrtmin[m[K’
+  383 | extern int [01;31m[K__libc_current_sigrtmin[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:385:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__libc_current_sigrtmax[m[K’
+  385 | extern int [01;31m[K__libc_current_sigrtmax[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:74[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:12:3:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kidtype_t[m[K’
+   12 | } [01;31m[Kidtype_t[m[K;
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:83:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait[m[K’
+   83 | extern __pid_t [01;31m[Kwait[m[K (int *__stat_loc);
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:106:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwaitpid[m[K’
+  106 | extern __pid_t [01;31m[Kwaitpid[m[K (__pid_t __pid, int *__stat_loc, int __options);
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:127:20:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Kidtype_t[m[K’
+  127 | extern int waitid ([01;31m[Kidtype_t[m[K __idtype, __id_t __id, siginfo_t *__infop,
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:127:52:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  127 | extern int waitid (idtype_t __idtype, __id_t __id, [01;31m[Ksiginfo_t[m[K *__infop,
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:143:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait3[m[K’
+  143 | extern __pid_t [01;31m[Kwait3[m[K (int *__stat_loc, int __options,
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:159:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait4[m[K’
+  159 | extern __pid_t [01;31m[Kwait4[m[K (__pid_t __pid, int *__stat_loc, int __options,
+      |                [01;31m[K^~~~~[m[K
+[01m[Kmain.c:9:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+    9 | int tokenizar(char * prompt, char ** tokens)[01;31m[K{[m[K
+      |                                             [01;31m[K^[m[K
+[01m[Kmain.c:21:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   21 | void interativo()[01;31m[K{[m[K
+      |                  [01;31m[K^[m[K
+[01m[Kmain.c:58:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   58 | int main(int argc, char ** argv)[01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[Ktasks.h:18:6:[m[K [01;31m[Kerror: [m[Kold-style parameter declarations in prototyped function definition
+   18 | void [01;31m[Koutput[m[K(char ** tokens, int n)
+      |      [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+make: *** [Makefile:7: main.o] Error 1
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+In file included from [01m[Kmain.c:4[m[K:
+[01m[Ktasks.h:[m[K In function ‘[01m[Koutput[m[K’:
+[01m[Ktasks.h:17:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Kvoid[m[K’
+   17 | [01;31m[Kvoid[m[K redirecionar(Tarefa * t);
+      | [01;31m[K^~~~[m[K
+In file included from [01m[Kmain.c:5[m[K:
+[01m[K/usr/include/unistd.h:255:22:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kuseconds_t[m[K’
+  255 | typedef __useconds_t [01;31m[Kuseconds_t[m[K;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:267:20:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kintptr_t[m[K’
+  267 | typedef __intptr_t [01;31m[Kintptr_t[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:274:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksocklen_t[m[K’
+  274 | typedef __socklen_t [01;31m[Ksocklen_t[m[K;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:287:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kaccess[m[K’
+  287 | extern int [01;31m[Kaccess[m[K (const char *__name, int __type) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:309:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfaccessat[m[K’
+  309 | extern int [01;31m[Kfaccessat[m[K (int __fd, const char *__file, int __type, int __flag)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:339:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klseek[m[K’
+  339 | extern __off_t [01;31m[Klseek[m[K (int __fd, __off_t __offset, int __whence) __THROW;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:358:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kclose[m[K’
+  358 | extern int [01;31m[Kclose[m[K (int __fd);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:363:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kclosefrom[m[K’
+  363 | extern void [01;31m[Kclosefrom[m[K (int __lowfd) __THROW;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:371:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kread[m[K’
+  371 | extern ssize_t [01;31m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:378:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwrite[m[K’
+  378 | extern ssize_t [01;31m[Kwrite[m[K (int __fd, const void *__buf, size_t __n) __wur
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:389:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpread[m[K’
+  389 | extern ssize_t [01;31m[Kpread[m[K (int __fd, void *__buf, size_t __nbytes,
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:398:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpwrite[m[K’
+  398 | extern ssize_t [01;31m[Kpwrite[m[K (int __fd, const void *__buf, size_t __n,
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:437:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpipe[m[K’
+  437 | extern int [01;31m[Kpipe[m[K (int __pipedes[2]) __THROW __wur;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:452:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kalarm[m[K’
+  452 | extern unsigned int [01;31m[Kalarm[m[K (unsigned int __seconds) __THROW;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:464:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksleep[m[K’
+  464 | extern unsigned int [01;31m[Ksleep[m[K (unsigned int __seconds);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:472:21:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kualarm[m[K’
+  472 | extern __useconds_t [01;31m[Kualarm[m[K (__useconds_t __value, __useconds_t __interval)
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:480:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kusleep[m[K’
+  480 | extern int [01;31m[Kusleep[m[K (__useconds_t __useconds);
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:489:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpause[m[K’
+  489 | extern int [01;31m[Kpause[m[K (void);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:493:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchown[m[K’
+  493 | extern int [01;31m[Kchown[m[K (const char *__file, __uid_t __owner, __gid_t __group)
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:498:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchown[m[K’
+  498 | extern int [01;31m[Kfchown[m[K (int __fd, __uid_t __owner, __gid_t __group) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:503:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klchown[m[K’
+  503 | extern int [01;31m[Klchown[m[K (const char *__file, __uid_t __owner, __gid_t __group)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:511:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchownat[m[K’
+  511 | extern int [01;31m[Kfchownat[m[K (int __fd, const char *__file, __uid_t __owner,
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:517:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchdir[m[K’
+  517 | extern int [01;31m[Kchdir[m[K (const char *__path) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:521:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfchdir[m[K’
+  521 | extern int [01;31m[Kfchdir[m[K (int __fd) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:531:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetcwd[m[K’
+  531 | extern char *[01;31m[Kgetcwd[m[K (char *__buf, size_t __size) __THROW __wur;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:545:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetwd[m[K’
+  545 | extern char *[01;31m[Kgetwd[m[K (char *__buf)
+      |              [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:552:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdup[m[K’
+  552 | extern int [01;31m[Kdup[m[K (int __fd) __THROW __wur;
+      |            [01;31m[K^~~[m[K
+[01m[K/usr/include/unistd.h:555:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdup2[m[K’
+  555 | extern int [01;31m[Kdup2[m[K (int __fd, int __fd2) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:564:15:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__environ[m[K’
+  564 | extern char **[01;31m[K__environ[m[K;
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:572:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecve[m[K’
+  572 | extern int [01;31m[Kexecve[m[K (const char *__path, char *const __argv[],
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:578:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfexecve[m[K’
+  578 | extern int [01;31m[Kfexecve[m[K (int __fd, char *const __argv[], char *const __envp[])
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:584:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecv[m[K’
+  584 | extern int [01;31m[Kexecv[m[K (const char *__path, char *const __argv[])
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:589:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecle[m[K’
+  589 | extern int [01;31m[Kexecle[m[K (const char *__path, const char *__arg, ...)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:594:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecl[m[K’
+  594 | extern int [01;31m[Kexecl[m[K (const char *__path, const char *__arg, ...)
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:599:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexecvp[m[K’
+  599 | extern int [01;31m[Kexecvp[m[K (const char *__file, char *const __argv[])
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:605:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kexeclp[m[K’
+  605 | extern int [01;31m[Kexeclp[m[K (const char *__file, const char *__arg, ...)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:619:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Knice[m[K’
+  619 | extern int [01;31m[Knice[m[K (int __inc) __THROW __wur;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:624:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K_exit[m[K’
+  624 | extern void [01;31m[K_exit[m[K (int __status) __attribute__ ((__noreturn__));
+      |             [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:633:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpathconf[m[K’
+  633 | extern long int [01;31m[Kpathconf[m[K (const char *__path, int __name)
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:637:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfpathconf[m[K’
+  637 | extern long int [01;31m[Kfpathconf[m[K (int __fd, int __name) __THROW;
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:640:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksysconf[m[K’
+  640 | extern long int [01;31m[Ksysconf[m[K (int __name) __THROW;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:644:15:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kconfstr[m[K’
+  644 | extern size_t [01;31m[Kconfstr[m[K (int __name, char *__buf, size_t __len) __THROW
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:650:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpid[m[K’
+  650 | extern __pid_t [01;31m[Kgetpid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:653:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetppid[m[K’
+  653 | extern __pid_t [01;31m[Kgetppid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:656:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpgrp[m[K’
+  656 | extern __pid_t [01;31m[Kgetpgrp[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:659:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__getpgid[m[K’
+  659 | extern __pid_t [01;31m[K__getpgid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:661:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpgid[m[K’
+  661 | extern __pid_t [01;31m[Kgetpgid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:668:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetpgid[m[K’
+  668 | extern int [01;31m[Ksetpgid[m[K (__pid_t __pid, __pid_t __pgid) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:682:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetpgrp[m[K’
+  682 | extern int [01;31m[Ksetpgrp[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:689:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetsid[m[K’
+  689 | extern __pid_t [01;31m[Ksetsid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:693:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetsid[m[K’
+  693 | extern __pid_t [01;31m[Kgetsid[m[K (__pid_t __pid) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:697:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetuid[m[K’
+  697 | extern __uid_t [01;31m[Kgetuid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:700:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgeteuid[m[K’
+  700 | extern __uid_t [01;31m[Kgeteuid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:703:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetgid[m[K’
+  703 | extern __gid_t [01;31m[Kgetgid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:706:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetegid[m[K’
+  706 | extern __gid_t [01;31m[Kgetegid[m[K (void) __THROW;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:711:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetgroups[m[K’
+  711 | extern int [01;31m[Kgetgroups[m[K (int __size, __gid_t __list[]) __THROW __wur
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:722:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetuid[m[K’
+  722 | extern int [01;31m[Ksetuid[m[K (__uid_t __uid) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:727:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetreuid[m[K’
+  727 | extern int [01;31m[Ksetreuid[m[K (__uid_t __ruid, __uid_t __euid) __THROW __wur;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:732:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kseteuid[m[K’
+  732 | extern int [01;31m[Kseteuid[m[K (__uid_t __uid) __THROW __wur;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:739:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetgid[m[K’
+  739 | extern int [01;31m[Ksetgid[m[K (__gid_t __gid) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:744:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetregid[m[K’
+  744 | extern int [01;31m[Ksetregid[m[K (__gid_t __rgid, __gid_t __egid) __THROW __wur;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:749:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetegid[m[K’
+  749 | extern int [01;31m[Ksetegid[m[K (__gid_t __gid) __THROW __wur;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:778:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfork[m[K’
+  778 | extern __pid_t [01;31m[Kfork[m[K (void) __THROWNL;
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:786:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kvfork[m[K’
+  786 | extern __pid_t [01;31m[Kvfork[m[K (void) __THROW;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:799:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyname[m[K’
+  799 | extern char *[01;31m[Kttyname[m[K (int __fd) __THROW;
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:803:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyname_r[m[K’
+  803 | extern int [01;31m[Kttyname_r[m[K (int __fd, char *__buf, size_t __buflen)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:809:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kisatty[m[K’
+  809 | extern int [01;31m[Kisatty[m[K (int __fd) __THROW;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:814:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kttyslot[m[K’
+  814 | extern int [01;31m[Kttyslot[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:819:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klink[m[K’
+  819 | extern int [01;31m[Klink[m[K (const char *__from, const char *__to)
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:825:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klinkat[m[K’
+  825 | extern int [01;31m[Klinkat[m[K (int __fromfd, const char *__from, int __tofd,
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:832:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksymlink[m[K’
+  832 | extern int [01;31m[Ksymlink[m[K (const char *__from, const char *__to)
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:838:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kreadlink[m[K’
+  838 | extern ssize_t [01;31m[Kreadlink[m[K (const char *__restrict __path,
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:847:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksymlinkat[m[K’
+  847 | extern int [01;31m[Ksymlinkat[m[K (const char *__from, int __tofd,
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:851:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kreadlinkat[m[K’
+  851 | extern ssize_t [01;31m[Kreadlinkat[m[K (int __fd, const char *__restrict __path,
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:858:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kunlink[m[K’
+  858 | extern int [01;31m[Kunlink[m[K (const char *__name) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:862:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kunlinkat[m[K’
+  862 | extern int [01;31m[Kunlinkat[m[K (int __fd, const char *__name, int __flag)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:867:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Krmdir[m[K’
+  867 | extern int [01;31m[Krmdir[m[K (const char *__path) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:871:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktcgetpgrp[m[K’
+  871 | extern __pid_t [01;31m[Ktcgetpgrp[m[K (int __fd) __THROW;
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:874:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktcsetpgrp[m[K’
+  874 | extern int [01;31m[Ktcsetpgrp[m[K (int __fd, __pid_t __pgrp_id) __THROW;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:881:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetlogin[m[K’
+  881 | extern char *[01;31m[Kgetlogin[m[K (void);
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:889:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetlogin_r[m[K’
+  889 | extern int [01;31m[Kgetlogin_r[m[K (char *__name, size_t __name_len) __nonnull ((1))
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:895:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetlogin[m[K’
+  895 | extern int [01;31m[Ksetlogin[m[K (const char *__name) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:27[m[K,
+                 from [01m[K/usr/include/unistd.h:903[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:36:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptarg[m[K’
+   36 | extern char *[01;31m[Koptarg[m[K;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:50:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptind[m[K’
+   50 | extern int [01;31m[Koptind[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:55:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kopterr[m[K’
+   55 | extern int [01;31m[Kopterr[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:59:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Koptopt[m[K’
+   59 | extern int [01;31m[Koptopt[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/getopt_core.h:91:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetopt[m[K’
+   91 | extern int [01;31m[Kgetopt[m[K (int ___argc, char *const *___argv, const char *__shortopts)
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:911:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgethostname[m[K’
+  911 | extern int [01;31m[Kgethostname[m[K (char *__name, size_t __len) __THROW __nonnull ((1))
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:919:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksethostname[m[K’
+  919 | extern int [01;31m[Ksethostname[m[K (const char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:924:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksethostid[m[K’
+  924 | extern int [01;31m[Ksethostid[m[K (long int __id) __THROW __wur;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:930:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetdomainname[m[K’
+  930 | extern int [01;31m[Kgetdomainname[m[K (char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:933:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetdomainname[m[K’
+  933 | extern int [01;31m[Ksetdomainname[m[K (const char *__name, size_t __len)
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:939:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kvhangup[m[K’
+  939 | extern int [01;31m[Kvhangup[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:942:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Krevoke[m[K’
+  942 | extern int [01;31m[Krevoke[m[K (const char *__file) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:950:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kprofil[m[K’
+  950 | extern int [01;31m[Kprofil[m[K (unsigned short int *__sample_buffer, size_t __size,
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:958:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kacct[m[K’
+  958 | extern int [01;31m[Kacct[m[K (const char *__name) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:962:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetusershell[m[K’
+  962 | extern char *[01;31m[Kgetusershell[m[K (void) __THROW;
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:963:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kendusershell[m[K’
+  963 | extern void [01;31m[Kendusershell[m[K (void) __THROW; /* Discard cached info.  */
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:964:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksetusershell[m[K’
+  964 | extern void [01;31m[Ksetusershell[m[K (void) __THROW; /* Rewind and re-read the file.  */
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:970:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kdaemon[m[K’
+  970 | extern int [01;31m[Kdaemon[m[K (int __nochdir, int __noclose) __THROW __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:977:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kchroot[m[K’
+  977 | extern int [01;31m[Kchroot[m[K (const char *__path) __THROW __nonnull ((1)) __wur;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/unistd.h:981:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpass[m[K’
+  981 | extern char *[01;31m[Kgetpass[m[K (const char *__prompt) __nonnull ((1));
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:989:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfsync[m[K’
+  989 | extern int [01;31m[Kfsync[m[K (int __fd);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:1002:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgethostid[m[K’
+ 1002 | extern long int [01;31m[Kgethostid[m[K (void);
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1005:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksync[m[K’
+ 1005 | extern void [01;31m[Ksync[m[K (void) __THROW;
+      |             [01;31m[K^~~~[m[K
+[01m[K/usr/include/unistd.h:1011:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetpagesize[m[K’
+ 1011 | extern int [01;31m[Kgetpagesize[m[K (void)  __THROW __attribute__ ((__const__));
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1016:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgetdtablesize[m[K’
+ 1016 | extern int [01;31m[Kgetdtablesize[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1026:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ktruncate[m[K’
+ 1026 | extern int [01;31m[Ktruncate[m[K (const char *__file, __off_t __length)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1049:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kftruncate[m[K’
+ 1049 | extern int [01;31m[Kftruncate[m[K (int __fd, __off_t __length) __THROW __wur;
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1070:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kbrk[m[K’
+ 1070 | extern int [01;31m[Kbrk[m[K (void *__addr) __THROW __wur;
+      |            [01;31m[K^~~[m[K
+[01m[K/usr/include/unistd.h:1076:20:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Kintptr_t[m[K’
+ 1076 | extern void *sbrk ([01;31m[Kintptr_t[m[K __delta) __THROW;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1091:17:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksyscall[m[K’
+ 1091 | extern long int [01;31m[Ksyscall[m[K (long int __sysno, ...) __THROW;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1114:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Klockf[m[K’
+ 1114 | extern int [01;31m[Klockf[m[K (int __fd, int __cmd, __off_t __len) __wur;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/unistd.h:1150:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfdatasync[m[K’
+ 1150 | extern int [01;31m[Kfdatasync[m[K (int __fildes);
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:1162:14:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kcrypt[m[K’
+ 1162 | extern char *[01;31m[Kcrypt[m[K (const char *__key, const char *__salt)
+      |              [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:32[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:36[m[K,
+                 from [01m[Kmain.c:6[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:8:24:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksig_atomic_t[m[K’
+    8 | typedef __sig_atomic_t [01;31m[Ksig_atomic_t[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:6[m[K,
+                 from [01m[K/usr/include/signal.h:57[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:30:22:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__sigval_t[m[K’
+   30 | typedef union sigval [01;31m[K__sigval_t[m[K;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:67:13:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   67 |             [01;31m[K__sigval_t[m[K si_sigval;       /* Signal value.  */
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:75:13:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   75 |             [01;31m[K__sigval_t[m[K si_sigval;       /* Signal value.  */
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:124:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiginfo_t[m[K’
+  124 |   } [01;31m[Ksiginfo_t[m[K __SI_ALIGNMENT;
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:62[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:16:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksigval_t[m[K’
+   16 | typedef __sigval_t [01;31m[Ksigval_t[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:66[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:24:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sigval_t[m[K’
+   24 |     [01;31m[K__sigval_t[m[K sigev_value;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:42:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigevent_t[m[K’
+   42 |   } [01;31m[Ksigevent_t[m[K;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:72:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__sighandler_t[m[K’
+   72 | typedef void (*[01;31m[K__sighandler_t[m[K) (int);
+      |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:77:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K__sysv_signal[m[K’
+   77 | extern __sighandler_t [01;31m[K__sysv_signal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:88:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksignal[m[K’
+   88 | extern __sighandler_t [01;31m[Ksignal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/signal.h:112:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kkill[m[K’
+  112 | extern int [01;31m[Kkill[m[K (__pid_t __pid, int __sig) __THROW;
+      |            [01;31m[K^~~~[m[K
+[01m[K/usr/include/signal.h:119:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kkillpg[m[K’
+  119 | extern int [01;31m[Kkillpg[m[K (__pid_t __pgrp, int __sig) __THROW;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/signal.h:123:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kraise[m[K’
+  123 | extern int [01;31m[Kraise[m[K (int __sig) __THROW;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/usr/include/signal.h:127:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Kssignal[m[K’
+  127 | extern __sighandler_t [01;31m[Kssignal[m[K (int __sig, __sighandler_t __handler)
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:129:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgsignal[m[K’
+  129 | extern int [01;31m[Kgsignal[m[K (int __sig) __THROW;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:134:13:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpsignal[m[K’
+  134 | extern void [01;31m[Kpsignal[m[K (int __sig, const char *__s);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:137:29:[m[K [01;31m[Kerror: [m[Ktype defaults to ‘[01m[Kint[m[K’ in declaration of ‘[01m[Ksiginfo_t[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-int-Wimplicit-int]8;;[m[K]
+  137 | extern void psiginfo (const [01;31m[Ksiginfo_t[m[K *__pinfo, const char *__s);
+      |                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:137:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’, ‘[01m[K,[m[K’ or ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+  137 | extern void psiginfo (const siginfo_t [01;31m[K*[m[K__pinfo, const char *__s);
+      |                                       [01;31m[K^[m[K
+[01m[K/usr/include/signal.h:173:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigblock[m[K’
+  173 | extern int [01;31m[Ksigblock[m[K (int __mask) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/signal.h:176:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigsetmask[m[K’
+  176 | extern int [01;31m[Ksigsetmask[m[K (int __mask) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:179:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiggetmask[m[K’
+  179 | extern int [01;31m[Ksiggetmask[m[K (void) __THROW __attribute_deprecated__;
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:193:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Ksig_t[m[K’
+  193 | typedef __sighandler_t [01;31m[Ksig_t[m[K;
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/usr/include/signal.h:199:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigemptyset[m[K’
+  199 | extern int [01;31m[Ksigemptyset[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:202:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigfillset[m[K’
+  202 | extern int [01;31m[Ksigfillset[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:205:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigaddset[m[K’
+  205 | extern int [01;31m[Ksigaddset[m[K (sigset_t *__set, int __signo) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:208:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigdelset[m[K’
+  208 | extern int [01;31m[Ksigdelset[m[K (sigset_t *__set, int __signo) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:211:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigismember[m[K’
+  211 | extern int [01;31m[Ksigismember[m[K (const sigset_t *__set, int __signo)
+      |            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:229[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigaction.h:34:9:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[K__sighandler_t[m[K’
+   34 |         [01;31m[K__sighandler_t[m[K sa_handler;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:232:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigprocmask[m[K’
+  232 | extern int [01;31m[Ksigprocmask[m[K (int __how, const sigset_t *__restrict __set,
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:240:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigsuspend[m[K’
+  240 | extern int [01;31m[Ksigsuspend[m[K (const sigset_t *__set) __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:243:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigaction[m[K’
+  243 | extern int [01;31m[Ksigaction[m[K (int __sig, const struct sigaction *__restrict __act,
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:247:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigpending[m[K’
+  247 | extern int [01;31m[Ksigpending[m[K (sigset_t *__set) __THROW __nonnull ((1));
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:255:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigwait[m[K’
+  255 | extern int [01;31m[Ksigwait[m[K (const sigset_t *__restrict __set, int *__restrict __sig)
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:265:25:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  265 |                         [01;31m[Ksiginfo_t[m[K *__restrict __info) __nonnull ((1));
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:274:26:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  274 |                          [01;31m[Ksiginfo_t[m[K *__restrict __info,
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:292:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigqueue[m[K’
+  292 | extern int [01;31m[Ksigqueue[m[K (__pid_t __pid, int __sig, const union sigval __val)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/signal.h:304:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigreturn[m[K’
+  304 | extern int [01;31m[Ksigreturn[m[K (struct sigcontext *__scp) __THROW;
+      |            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:313[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:31:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kstack_t[m[K’
+   31 |   } [01;31m[Kstack_t[m[K;
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:316[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:37:1:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers before ‘[01m[K__extension__[m[K’
+   37 | [01;31m[K__extension__[m[K typedef long long int greg_t;
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:46:9:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kgreg_t[m[K’
+   46 | typedef [01;31m[Kgreg_t[m[K gregset_t[__NGREG];
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:46:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kgregset_t[m[K’
+   46 | typedef greg_t [01;31m[Kgregset_t[m[K[__NGREG];
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:130:31:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kfpregset_t[m[K’
+  130 | typedef struct _libc_fpstate *[01;31m[Kfpregset_t[m[K;
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:135:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[Kgregset_t[m[K’
+  135 |     [01;31m[Kgregset_t[m[K __ctx(gregs);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:139:3:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kmcontext_t[m[K’
+  139 | } [01;31m[Kmcontext_t[m[K;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:146:5:[m[K [01;31m[Kerror: [m[Kexpected specifier-qualifier-list before ‘[01m[Kstack_t[m[K’
+  146 |     [01;31m[Kstack_t[m[K uc_stack;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/ucontext.h:151:5:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kucontext_t[m[K’
+  151 |   } [01;31m[Kucontext_t[m[K;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:324:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksiginterrupt[m[K’
+  324 | extern int [01;31m[Ksiginterrupt[m[K (int __sig, int __interrupt) __THROW
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:333:31:[m[K [01;31m[Kerror: [m[Ktype defaults to ‘[01m[Kint[m[K’ in declaration of ‘[01m[Kstack_t[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-int-Wimplicit-int]8;;[m[K]
+  333 | extern int sigaltstack (const [01;31m[Kstack_t[m[K *__restrict __ss,
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/signal.h:333:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’, ‘[01m[K,[m[K’ or ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+  333 | extern int sigaltstack (const stack_t [01;31m[K*[m[K__restrict __ss,
+      |                                       [01;31m[K^[m[K
+[01m[K/usr/include/signal.h:347:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Ksigstack[m[K’
+  347 | extern int [01;31m[Ksigstack[m[K (struct sigstack *__ss, struct sigstack *__oss)
+      |            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/signal.h:376[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigthread.h:31:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpthread_sigmask[m[K’
+   31 | extern int [01;31m[Kpthread_sigmask[m[K (int __how,
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/sigthread.h:36:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kpthread_kill[m[K’
+   36 | extern int [01;31m[Kpthread_kill[m[K (pthread_t __threadid, int __signo) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:383:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__libc_current_sigrtmin[m[K’
+  383 | extern int [01;31m[K__libc_current_sigrtmin[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/signal.h:385:12:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[K__libc_current_sigrtmax[m[K’
+  385 | extern int [01;31m[K__libc_current_sigrtmax[m[K (void) __THROW;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:74[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:12:3:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kidtype_t[m[K’
+   12 | } [01;31m[Kidtype_t[m[K;
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:83:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait[m[K’
+   83 | extern __pid_t [01;31m[Kwait[m[K (int *__stat_loc);
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:106:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwaitpid[m[K’
+  106 | extern __pid_t [01;31m[Kwaitpid[m[K (__pid_t __pid, int *__stat_loc, int __options);
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:127:20:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Kidtype_t[m[K’
+  127 | extern int waitid ([01;31m[Kidtype_t[m[K __idtype, __id_t __id, siginfo_t *__infop,
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:127:52:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before ‘[01m[Ksiginfo_t[m[K’
+  127 | extern int waitid (idtype_t __idtype, __id_t __id, [01;31m[Ksiginfo_t[m[K *__infop,
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:143:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait3[m[K’
+  143 | extern __pid_t [01;31m[Kwait3[m[K (int *__stat_loc, int __options,
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:159:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[Kwait4[m[K’
+  159 | extern __pid_t [01;31m[Kwait4[m[K (__pid_t __pid, int *__stat_loc, int __options,
+      |                [01;31m[K^~~~~[m[K
+[01m[Kmain.c:9:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+    9 | int tokenizar(char * prompt, char ** tokens)[01;31m[K{[m[K
+      |                                             [01;31m[K^[m[K
+[01m[Kmain.c:21:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   21 | void interativo()[01;31m[K{[m[K
+      |                  [01;31m[K^[m[K
+[01m[Kmain.c:58:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   58 | int main(int argc, char ** argv)[01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[Ktasks.h:15:6:[m[K [01;31m[Kerror: [m[Kold-style parameter declarations in prototyped function definition
+   15 | void [01;31m[Koutput[m[K(char ** tokens, int n)
+      |      [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+make: *** [Makefile:7: main.o] Error 1
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+gcc -c tasks.c
+[01m[Ktasks.c:[m[K In function ‘[01m[KcadastrarTask[m[K’:
+[01m[Ktasks.c:17:5:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kstrpcy[m[K’; did you mean ‘[01m[Kstrcpy[m[K’? [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+   17 |     [01;31m[Kstrpcy[m[K(t->output, "");
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kstrcpy[m[K
+[01m[Ktasks.c:[m[K In function ‘[01m[Kredirecionar[m[K’:
+[01m[Ktasks.c:73:25:[m[K [01;31m[Kerror: [m[K‘[01m[Karquivo[m[K’ undeclared (first use in this function)
+   73 |         int fd = fileno([01;31m[Karquivo[m[K);
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[Ktasks.c:73:25:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+make: *** [Makefile:10: tasks.o] Error 1
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ [K]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c tasks.c
+[01m[Ktasks.c:[m[K In function ‘[01m[Kredirecionar[m[K’:
+[01m[Ktasks.c:73:25:[m[K [01;31m[Kerror: [m[K‘[01m[Karquivo[m[K’ undeclared (first use in this function)
+   73 |         int fd = fileno([01;31m[Karquivo[m[K);
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[Ktasks.c:73:25:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+make: *** [Makefile:10: tasks.o] Error 1
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00m:[01;34m~/Downloads/hcs4/ProcessFlow[00m$ make
+[?2004lgcc -c tasks.c
+gcc main.o tasks.o -o processflow
+[?2004h]0;torzin@Ubuntu: ~/Downloads/hcs4/ProcessFlow[01;32mtorzin@Ubuntu[00

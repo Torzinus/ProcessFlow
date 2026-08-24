@@ -4,6 +4,7 @@
 #include "tasks.h"
 #include <unistd.h>
 #include <sys/wait.h>
+#include <stdbool.h>
 
 int tokenizar(char * prompt, char ** tokens){
     int i = 0;
@@ -39,10 +40,13 @@ void interativo(){
             input(tokens, n);
         }
         else if(strcmp(comando, "output") == 0){
-            printf("Enviando saída para arquivo...\n");
+            output(tokens, n);
+        } 
+        else if(strcmp(comando, "append") == 0){
+            append(tokens, n);
         }
         else if (strcmp(comando, "start") == 0){
-            printf("Iniciando tarefa...\n");
+            printf("Ainda não implementado\n");
         } else if(strcmp(comando, "exit") == 0){
             printf("Saindo...\n");
             rodando = 0;

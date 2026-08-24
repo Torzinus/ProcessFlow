@@ -4,6 +4,7 @@
 #include "tasks.h"
 #include <unistd.h>
 #include <sys/wait.h>
+#include <stdbool.h>
 
 Tarefa lista_tarefas[100];
 int total_tarefas = 0;
@@ -13,6 +14,9 @@ Tarefa * cadastrarTask(char ** tokens, int n){
     strcpy(t->nome, tokens[1]);
     strcpy(t->programa, tokens[2]);
     strcpy(t->input, ""); 
+    strcpy(t->output, "");
+    t->append = false;
+
     int j = 0;
     for (int i = 3; i < n; i ++){
         t->argumentos[j] = tokens[i];
@@ -42,10 +46,34 @@ void input(char ** tokens, int n){  //adiciona o input à struct
     strcpy(t->input, tokens[2]);
 }
 
+void output(char ** tokens, int n){
+    Tarefa * t = buscaTask(tokens[1]);
+    strcpy(t->output, tokens[2]);
+    t->append = false;
+}
+
+void append(char ** tokens, int n){
+    Tarefa * t = buscaTask(tokens[1]);
+    strcpy(t->output, tokens[2]);
+    t->append = true;
+}
+
 void redirecionar(Tarefa * t){
-    FILE * arquivo = fopen(t->input, "r");
-    int fd = fileno(arquivo); 
-    dup2(fd, 0);
+    if (strcmp(t->input, "") != 0){
+        FILE * arquivo = fopen(t->input, "r");
+        int fd = fileno(arquivo); 
+        dup2(fd, 0);
+    }
+    if (strcmp(t->output, "") != 0){
+        FILE * arquivo;
+        if(t->append == true){
+            arquivo = fopen(t->output, "a");
+        } else{
+            arquivo = fopen(t->output, "w");
+        }
+        int fd = fileno(arquivo); 
+        dup2(fd, 1);
+    }
 }
 
 
