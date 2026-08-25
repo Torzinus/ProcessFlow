@@ -18,8 +18,10 @@ Tarefa * cadastrarTask(char ** tokens, int n){
     t->append = false;
 
     int j = 0;
+    t->argumentos[j] = strdup(t->programa);
+    j++;
     for (int i = 3; i < n; i ++){
-        t->argumentos[j] = tokens[i];
+        t->argumentos[j] = strdup(tokens[i]); 
         j++;
     }
 
